@@ -1,0 +1,38 @@
+/*
+ * SPI_Config.h
+ *
+ *  Created on: Aug 8, 2024
+ *      Author: hikal
+ */
+
+#ifndef SPI_CONFIG_H_
+#define SPI_CONFIG_H_
+
+/*
+ *  options For  Data Order
+ *  SPI_DATA_ORDER_MSB_TRANSMITTED_FRIST
+ *  SPI_DATA_ORDER_LSB_TRANSMITTED_FRIST
+ */
+
+#define SPI_DATA_ORDER 			SPI_DATA_ORDER_MSB_TRANSMITTED_FIRST
+
+/*
+ * MASTER SLAVE MODES
+ * SPI_MODE_SELECT_MASTER
+ * SPI_MODE_SELECT_SLAVE
+ */
+#define SPI_MODE 				SPI_MODE_SELECT_MASTER
+
+/*
+ * Clock Polarity
+ * SPI_CLOCK_POLARITY_IDEAL_LOW
+ * SPI_CLOCK_POLARITY_IDEAL_HIGH
+ */
+#define SPI_CLOCK_POLARITY		SPI_CLOCK_POLARITY_IDEAL_LOW
+
+/*
+ * Clock Phase
+ */
+#define SPI_CLOCK_PHASE			SPI_CLOCK_PHASE_SAMPLE_TRAILING
+
+#endif /* SPI_CONFIG_H_ */

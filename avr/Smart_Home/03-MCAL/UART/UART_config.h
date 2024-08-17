@@ -1,0 +1,36 @@
+/*
+ * UART_config.h
+ *
+ *  Created on: Aug 7, 2024
+ *      Author: eng_youssef_goher
+ */
+
+#ifndef __MCAL_UART_UART_CONFIG_H_
+#define __MCAL_UART_UART_CONFIG_H_
+/*
+ * Double the USART Transmission Speed
+ * UART_DOUBLE_SPEED_ENABLED
+ * UART_DOUBLE_SPEED_DISABLED
+ */
+#define UART_DOUBLE_SPEED 		UART_DOUBLE_SPEED_ENABLED
+
+/*
+ *  CPU FREQUNCY IN MHZ
+ */
+#define UART_CPU_F_MHZ			8
+
+/*
+ * USART Receive
+ * UART_RECEIVE_ENABLED
+ * UART_RECEIVE_DISABLED
+ */
+#define UART_RECEIVE			UART_RECEIVE_ENABLED
+
+/*
+ * USART Transmit
+ * UART_TRANSMIT_ENABLED
+ * UART_TRANSMIT_DISABLED
+ */
+#define UART_TRANSMIT			UART_TRANSMIT_ENABLED
+
+#endif /* 03_MCAL_UART_UART_CONFIG_H_ */
