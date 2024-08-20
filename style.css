@@ -1,4 +1,145 @@
-button{
-    color: white;
-    background-color:green;
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("assets/small BG.svg");
+    background-size:100%;
+    background-position: top; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+    background-color: #F2F2F2;
 }
+#auth-panel{
+    position: relative;
+    top: 14rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#auth-panel p{
+    font-size: 1.5em;
+}
+#auth-panel input{
+    padding: 1%;
+    width: 60%;
+    height: 20px ;
+    border-radius: 10px;
+}
+#auth-panel button{
+    background: linear-gradient(to right,#0051E3,#0ADFF4);
+    color: #F2F2F2;
+    width: 30%;
+    height: 29px;
+    border-radius: 15px;
+
+}
+button{
+    
+}
+.button_control{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    width: 170px;
+    height: 195.39px;
+    border: none;
+    border-radius: 20px;
+}
+#control-panel{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;  
+}
+.user_int{
+    display: flex;
+    position: relative;
+    top: 3rem;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2%;
+}
+.controls{
+    position: relative;
+    top: 8rem;
+    padding: 2%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns:1fr 1fr; 
+    
+    gap: 10px;
+    margin-bottom: 2%;
+}
+#control-panel p{
+    font-size: 2em;
+    color: white;
+    text-transform: capitalize;
+
+}
+
+/* ////////////////////////////////// */
+#lock-panel{
+    flex-direction: column;
+    align-items: center;
+}
+
+.pin-screen {
+    position: relative;
+    top: 6.5em;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding: 16px;
+	gap: 16px;
+	border-radius: 8px;
+	width: 300px;
+	/* background: #ffffff; */
+}
+
+.pin-value {
+	outline: none;
+	border: none;
+	background: transparent;
+	text-align: center;
+    color: #0051E3;
+	font-size: 32px;
+	letter-spacing: 4px;
+}
+
+.pin-divider {
+	height: 1px;
+	width: 100%;
+	border: none;
+	background: #009578;
+	margin: 0;
+}
+
+.pin-keyboard {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 16px;
+}
+
+.pin-keyboard-key {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 48px;
+	cursor: pointer;
+	font-family: 'Lexend', sans-serif;
+	font-size: 22px;
+	color: #555555;
+	background: #F2F2F2; 
+	border: 2px solid #F2F2F2;
+	border-radius: 4px;
+}
+
+.pin-keyboard-key:active {
+	background: #eeeeee;
+}
+
+
+
+
+
+
+
+
+
